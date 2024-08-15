@@ -1,8 +1,12 @@
+//This will play sound when clicked on button on Audio 1
+
+//Audio1 Drumbass Sound
 document.getElementById('button1').addEventListener('click', () => {
     let audio = document.getElementById('boomSound');
     audio.play();
 });
 
+//This is keyboard press, i.e, Q = boom sound and will play when pressed
 document.addEventListener('keydown', (event) => {
     let audio = document.getElementById('boomSound');
     if (event.code === 'KeyQ') {
@@ -10,7 +14,14 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+//This is image audio on press
+document.getElementById('drumBassI').addEventListener('click', () => {
+    let audio = document.getElementById('boomSound');
+    audio.play();
+});
+//All shown above will be able to click on button or press letter or click image for audio/sound to play
 
+//Audio 2 Clap sound
 document.getElementById('button2').addEventListener('click', () => {
     let audio = document.getElementById('clapSound');
     audio.play();
@@ -23,7 +34,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('clapHandsI').addEventListener('click', () => {
+    let audio = document.getElementById('clapSound');
+    audio.play();
+});
 
+//Audio 3 HiHat Sound
 document.getElementById('button3').addEventListener('click', () => {
     let audio = document.getElementById('hihatSound');
     audio.play();
@@ -36,7 +52,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('hiHatDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('hihatSound');
+    audio.play();
+});
 
+//Audio 4 Kick sound
 document.getElementById('button4').addEventListener('click', () => {
     let audio = document.getElementById('kickSound');
     audio.play();
@@ -49,7 +70,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('kickDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('kickSound');
+    audio.play();
+});
 
+//Audio 5 OpenHat sound
 document.getElementById('button5').addEventListener('click', () => {
     let audio = document.getElementById('openhatSound');
     audio.play();
@@ -62,7 +88,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('openHatDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('openhatSound');
+    audio.play();
+});
 
+//Audio 6 Ride sound
 document.getElementById('button6').addEventListener('click', () => {
     let audio = document.getElementById('rideSound');
     audio.play();
@@ -75,11 +106,17 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('rideDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('rideSound');
+    audio.play();
+});
 
+//Audio 7 Snare sound
 document.getElementById('button7').addEventListener('click', () => {
     let audio = document.getElementById('snareSound');
     audio.play();
 });
+
 
 document.addEventListener('keydown', (event) => {
     let audio = document.getElementById('snareSound');
@@ -88,7 +125,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('snareDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('snareSound');
+    audio.play();
+});
 
+//Audio 8 Tink sound
 document.getElementById('button8').addEventListener('click', () => {
     let audio = document.getElementById('tinkSound');
     audio.play();
@@ -101,7 +143,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('tinkDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('tinkSound');
+    audio.play();
+});
 
+//Audio 9 Tom sound
 document.getElementById('button9').addEventListener('click', () => {
     let audio = document.getElementById('tomSound');
     audio.play();
@@ -112,4 +159,9 @@ document.addEventListener('keydown', (event) => {
     if (event.code === 'KeyO') {
         audio.play();
     }
+});
+
+document.getElementById('tomDrumKitI').addEventListener('click', () => {
+    let audio = document.getElementById('tomSound');
+    audio.play();
 });
