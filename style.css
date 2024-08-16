@@ -5,13 +5,6 @@ h1{
     color: whitesmoke;
 }
 
-h2{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: whitesmoke;
-}
-
 body{
     display: flex;
     flex-wrap: wrap;
